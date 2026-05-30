@@ -1,3 +1,29 @@
+# Alpernab
+
+This folder has been upgraded into a **standalone real GUI project**.
+
+Run the project GUI:
+
+```bash
+./run_gui.sh
+```
+
+Windows:
+
+```powershell
+.\run_gui_windows.ps1
+```
+
+Default local URL: `http://127.0.0.1:9101`
+
+This project includes its own FastAPI backend, browser GUI, provider settings, local/cloud LLM routing, encrypted API-key storage, file uploads, job history, exports, and a project-specific plugin configuration.
+
+See `PROJECT_IMPLEMENTATION.md` and `project_config.json` for the applied project-specific features and customization controls.
+
+---
+
+## Original README
+
 <div align="center">
 
 <img src="https://avatars.githubusercontent.com/u/63242650?v=4" width="96" style="border-radius:50%"/>
@@ -7,7 +33,6 @@
 **AI Builder · SaaS · E-commerce Automation · Fintech**
 
 I build AI-powered products, autonomous e-commerce systems, and open-source developer tools that solve real business problems.  
-Currently shipping **[ToScribe](https://toscribe.to)** (AI transcription SaaS) and running **[BingoRealm](https://store.bingorealm.com)** with a fully AI-automated ops stack.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-alper--nabil-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/alper-nabil)
 [![Website](https://img.shields.io/badge/Website-alpernabil.com-000?style=flat&logo=safari&logoColor=white)](https://www.alpernabil.com)
@@ -22,8 +47,6 @@ Currently shipping **[ToScribe](https://toscribe.to)** (AI transcription SaaS) a
 
 | Project | What it is | Stack |
 |--------|-----------|-------|
-| **[ToScribe](https://toscribe.to)** | AI transcription SaaS — multilingual, diarization, structured JSON output | Gemini 2.5 · Node.js · PostgreSQL |
-| **[BingoRealm](https://store.bingorealm.com)** | Shopify store with AI-automated product ops, SEO, Klaviyo flows | Shopify · Klaviyo · Claude API |
 | **[shopify-mcp-server](https://github.com/AlperNab/shopify-mcp-server)** | MCP server — let Claude Code manage your Shopify store | TypeScript · MCP SDK |
 | **[llm-billing-engine](https://github.com/AlperNab/llm-billing-engine)** | Drop-in token credit system for AI SaaS — reserve, settle, audit | Python · PostgreSQL |
 | **[universal-doc-parser](https://github.com/AlperNab/universal-doc-parser)** | Any financial PDF → clean structured JSON via Claude vision | Python · Claude API |
