@@ -1,9 +1,9 @@
 {
   "slug": "AlperNab",
-  "name": "Alpernab",
+  "name": "AlperNab",
   "domain": "General AI Utility",
-  "target_user": "Domain operator, business owner, analyst, or team member who needs this workflow executed reliably.",
-  "core_job": "<div align=\"center\">",
+  "target_user": "Visitors, collaborators, clients, and operators who want to understand and run the AlperNab AI project workspace.",
+  "core_job": "Personal AI builder profile and standalone platform workspace",
   "deep_features": [
     "domain-aware analysis",
     "structured output",
